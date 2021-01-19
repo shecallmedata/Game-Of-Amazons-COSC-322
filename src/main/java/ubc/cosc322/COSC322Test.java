@@ -78,6 +78,9 @@ public class COSC322Test extends GamePlayer{
 	
     	//For a detailed description of the message types and format, 
     	//see the method GamePlayer.handleGameMessage() in the game-client-api document. 
+    	
+        System.out.println(msgDetails);
+        
     	    	
     	return true;   	
     }
