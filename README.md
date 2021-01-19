@@ -1,11 +1,7 @@
 # COSC322 Team Assignment
 ## Group Members
-David Brideson
-
-Jordan Ribbink
-
-Paul Sciarpelletti
-
-Dylan Tan
-
-Sang Tran
+David Brideson  
+Jordan Ribbink  
+Paul Sciarpelletti  
+Dylan Tan  
+Sang Tran  
