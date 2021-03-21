@@ -1,5 +1,24 @@
 
+
 package ubc.cosc322;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import sfs2x.client.entities.Room;
+import ygraph.ai.smartfox.games.BaseGameGUI;
+import ygraph.ai.smartfox.games.GameClient;
+import ygraph.ai.smartfox.games.GameMessage;
+import ygraph.ai.smartfox.games.GamePlayer;
+
+
+/**
+ * An example illustrating how to implement a GamePlayer
+ * @author Yong Gao (yong.gao@ubc.ca)
+ * Jan 5, 2021
+ *
+ */
 
 import java.util.*;
 import java.awt.BorderLayout;
@@ -351,7 +370,7 @@ public class COSC322Test extends GamePlayer{
 	        //if(!game.isGamebot){
 	        	addMouseListener(new  GameEventHandler());
 	        //}
-	        init();
+	        //init();
 		}
 		
 		
@@ -382,7 +401,7 @@ public class COSC322Test extends GamePlayer{
 		
 		// JCmoponent method
 		protected void paintComponent(Graphics gg){
-			Graphics g = (Graphics2D) gg;
+			Graphics2D g = (Graphics2D) gg;
  			
 			for(int i = 0; i < rows + 1; i++){
 				g.drawLine(i * cellDim + offset, offset, i * cellDim + offset, rows * cellDim + offset);
